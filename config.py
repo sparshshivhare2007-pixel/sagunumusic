@@ -63,7 +63,7 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/internalxfeelings)
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/internalxfeelings")
 SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/Sanginixbots")
 INSTAGRAM = os.getenv("INSTAGRAM", "https://t.me/Sanginixbots")
 YOUTUBE = os.getenv("YOUTUBE", "https://t.me/Sanginixbots")
