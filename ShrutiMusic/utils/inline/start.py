@@ -1,24 +1,3 @@
-# Copyright (c) 2025 Nand Yaduwanshi <NoxxOP>
-# Location: Supaul, Bihar
-#
-# All rights reserved.
-#
-# This code is the intellectual property of Nand Yaduwanshi.
-# You are not allowed to copy, modify, redistribute, or use this
-# code for commercial or personal projects without explicit permission.
-#
-# Allowed:
-# - Forking for personal learning
-# - Submitting improvements via pull requests
-#
-# Not Allowed:
-# - Claiming this code as your own
-# - Re-uploading without credit or permission
-# - Selling or using commercially
-#
-# Contact for permissions:
-# Email: badboy809075@gmail.com
-
 from pyrogram.types import InlineKeyboardButton
 import config
 from ShrutiMusic import app
@@ -57,10 +36,7 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(
-                text=_["E_X_1"],
-                callback_data="fork_repo"
-            ),
+            # Fork Repo wala button yahan se hata diya gaya hai
             InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
         ],
         [
@@ -96,15 +72,3 @@ def owner_panel(_):
         ]
     ]
     return buttons
-
-
-# ©️ Copyright Reserved - @NoxxOP  Nand Yaduwanshi
-
-# ===========================================
-# ©️ 2025 Nand Yaduwanshi (aka @NoxxOP)
-# 🔗 GitHub : https://github.com/NoxxOP/ShrutiMusic
-# 📢 Telegram Channel : https://t.me/ShrutiBots
-# ===========================================
-
-
-# ❤️ Love From ShrutiBots 
