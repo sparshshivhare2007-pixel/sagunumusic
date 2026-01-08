@@ -112,18 +112,18 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/jnr858.jpg")
-PING_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/jnr858.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/jnr858.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/2fu08c.jpg")
+PING_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/2fu08c.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/2fu08c.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores
