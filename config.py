@@ -112,18 +112,18 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg")
-PING_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-PLAYLIST_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-STATS_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-STREAM_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/ad3206c0de87b72b116ab-a28d2a05194b0de3fd.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg")
+PING_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+STATS_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+STREAM_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores
