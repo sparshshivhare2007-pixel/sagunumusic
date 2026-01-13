@@ -63,12 +63,12 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/destinybots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/destinybots")
-INSTAGRAM = os.getenv("INSTAGRAM", "https://t.me/destinybots")
-YOUTUBE = os.getenv("YOUTUBE", "https://t.me/destinybots")
-GITHUB = os.getenv("GITHUB", "https://t.me/destinybots")
-DONATE = os.getenv("DONATE", "https://t.me/destinybots")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/codebotnetwork")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/Yours_Soull")
+INSTAGRAM = os.getenv("INSTAGRAM", "https://t.me/Yours_Soull")
+YOUTUBE = os.getenv("YOUTUBE", "https://t.me/Yours_Soull")
+GITHUB = os.getenv("GITHUB", "https://t.me/Yours_Soull")
+DONATE = os.getenv("DONATE", "https://t.me/Yours_Soull")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -112,18 +112,18 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/2fu08c.jpg")
-PING_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/2fu08c.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/2fu08c.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/2fu08c.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg")
+PING_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+STATS_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+STREAM_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/329219144d5e7afa8a736-31419f4b7ff8e8724d.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores
