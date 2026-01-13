@@ -1,24 +1,5 @@
 # Copyright (c) 2025 Nand Yaduwanshi <NoxxOP>
-# Location: Supaul, Bihar
-#
-# All rights reserved.
-#
-# This code is the intellectual property of Nand Yaduwanshi.
-# You are not allowed to copy, modify, redistribute, or use this
-# code for commercial or personal projects without explicit permission.
-#
-# Allowed:
-# - Forking for personal learning
-# - Submitting improvements via pull requests
-#
-# Not Allowed:
-# - Claiming this code as your own
-# - Re-uploading without credit or permission
-# - Selling or using commercially
-#
-# Contact for permissions:
-# Email: badboy809075@gmail.com
-
+# Final Sudo-Only Stats Version
 
 import platform
 from sys import version as pyver
@@ -35,16 +16,19 @@ from ShrutiMusic import app
 from ShrutiMusic.core.userbot import assistants
 from ShrutiMusic.misc import SUDOERS, mongodb
 from ShrutiMusic.plugins import ALL_MODULES
-from ShrutiMusic.utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
+from ShrutiMusic.utils.database import get_served_chats, get_served_users, get_sudoers, is_autoend, is_autoleave
 from ShrutiMusic.utils.decorators.language import language, languageCB
 from ShrutiMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
-
-@app.on_message(filters.command(["stats", "gstats"]) & filters.group & ~BANNED_USERS)
+# ==========================================
+# COMMAND ONLY FOR SUDO USERS
+# ==========================================
+@app.on_message(filters.command(["stats", "gstats"]) & filters.group & SUDOERS & ~BANNED_USERS)
 @language
 async def stats_global(client, message: Message, _):
-    upl = stats_buttons(_, True if message.from_user.id in SUDOERS else False)
+    # Ab sirf SUDOERS hi yahan tak pahunch payenge
+    upl = stats_buttons(_, True) # True kyunki user confirm sudo hai
     await message.reply_photo(
         photo=config.STATS_IMG_URL,
         caption=_["gstats_2"].format(app.mention),
@@ -52,17 +36,17 @@ async def stats_global(client, message: Message, _):
     )
 
 
-@app.on_callback_query(filters.regex("stats_back") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("stats_back") & SUDOERS & ~BANNED_USERS)
 @languageCB
 async def home_stats(client, CallbackQuery, _):
-    upl = stats_buttons(_, True if CallbackQuery.from_user.id in SUDOERS else False)
+    upl = stats_buttons(_, True)
     await CallbackQuery.edit_message_text(
         text=_["gstats_2"].format(app.mention),
         reply_markup=upl,
     )
 
 
-@app.on_callback_query(filters.regex("TopOverall") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("TopOverall") & SUDOERS & ~BANNED_USERS)
 @languageCB
 async def overall_stats(client, CallbackQuery, _):
     await CallbackQuery.answer()
@@ -95,11 +79,13 @@ async def overall_stats(client, CallbackQuery, _):
         )
 
 
-@app.on_callback_query(filters.regex("bot_stats_sudo"))
+@app.on_callback_query(filters.regex("bot_stats_sudo") & SUDOERS)
 @languageCB
 async def bot_stats(client, CallbackQuery, _):
+    # Extra safety check (optional since filter already has SUDOERS)
     if CallbackQuery.from_user.id not in SUDOERS:
         return await CallbackQuery.answer(_["gstats_4"], show_alert=True)
+        
     upl = back_stats_buttons(_)
     try:
         await CallbackQuery.answer()
@@ -157,14 +143,4 @@ async def bot_stats(client, CallbackQuery, _):
             photo=config.STATS_IMG_URL, caption=text, reply_markup=upl
         )
 
-
 # ©️ Copyright Reserved - @NoxxOP  Nand Yaduwanshi
-
-# ===========================================
-# ©️ 2025 Nand Yaduwanshi (aka @NoxxOP)
-# 🔗 GitHub : https://github.com/NoxxOP/ShrutiMusic
-# 📢 Telegram Channel : https://t.me/ShrutiBots
-# ===========================================
-
-
-# ❤️ Love From ShrutiBots 
