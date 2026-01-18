@@ -112,18 +112,18 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg")
-PING_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-PLAYLIST_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-STATS_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-STREAM_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/2aeb253d46252bee8cf9d-582e4710e8de18a732.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/cz5abs.jpg")
+PING_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/cz5abs.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/cz5abs.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/cz5abs.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores
